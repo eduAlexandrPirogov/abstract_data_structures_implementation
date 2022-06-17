@@ -27,7 +27,7 @@ public:
 	LinkedListArray(LinkedListArray&& other);
 
 	bool operator==(const LinkedListArray& other);
-	bool operator[](const long long index);
+	T operator[](const long long index);
 
 
 	//Pre-condition: LinkedList has a free space from elem
@@ -187,7 +187,7 @@ bool LinkedListArray<T>::operator==(const LinkedListArray& other)
 }
 
 template<typename T>
-bool LinkedListArray<T>::operator[](const long long index)
+T LinkedListArray<T>::operator[](const long long index)
 {
 	auto tmp = container[index];
 	return container[index];
