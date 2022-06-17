@@ -57,11 +57,21 @@ Commands will execute like this:
 ![alt text](img/insert_at.png?raw=true)
 
 
+### Deleting element
+
+Deleting element has a O(n) complexety. After deleting an item at some index we should move rest of elements back at one position.
+
+For example:
+
+1. erase(1)
+
+![alt text](img/erase.png?raw=true)
+
 So what's the advantages of this realization:
 1. We can fact access elements by position
 2. No needle for memory handle
 
 Disadvantages:
 1. List size is limited
-2. Insert elemnt at position makes rest of elements move (0(n))
+2. Insert/erase element at position makes rest of elements move (0(n))
 3. Arrray should be initialized by start value
