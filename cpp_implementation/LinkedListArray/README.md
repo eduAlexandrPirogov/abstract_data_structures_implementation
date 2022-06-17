@@ -71,6 +71,8 @@ For example:
 
 ![alt text](img/erase.png?raw=true)
 
+# Conclusion
+
 So what's the advantages of this realization:
 1. We can fact access elements by position
 2. No needle for memory handle
