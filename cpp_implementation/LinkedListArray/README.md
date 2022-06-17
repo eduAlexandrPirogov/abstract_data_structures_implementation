@@ -30,7 +30,7 @@ And we calling push_back methods:
 
 Our lists we look like this:
 
-![alt text](https://github.com/edualexandrpirogov/abstract_data_structures_implementation/cpp_implementation/LinkedListArray/img/start.png?raw=true)
+![alt text](img/start.png?raw=true)
 
 Having `current_size` we can fast add new elements in our lists (complexety O(1)) at the end 
 
@@ -38,6 +38,8 @@ Having `current_size` we can fast add new elements in our lists (complexety O(1)
 array[current_size] = elem
 current_size++;
 ```
+
+![alt text](img/push_back.png?raw=true)
 
 Let's see how will work `insert_at(elem, index)`. 
 Our list:
@@ -50,5 +52,16 @@ First we check i we have enough space for new insert. If so then we move element
 
 Commands will execute like this:
 
+![alt text](img/insert_at_one.png?raw=true)
+
+![alt text](img/insert_at.png?raw=true)
 
 
+So what's the advantages of this realization:
+1. We can fact access elements by position
+2. No needle for memory handle
+
+Disadvantages:
+1. List size is limited
+2. Insert elemnt at position makes rest of elements move (0(n))
+3. Arrray should be initialized by start value
