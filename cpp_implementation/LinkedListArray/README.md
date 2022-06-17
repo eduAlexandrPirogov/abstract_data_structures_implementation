@@ -1,7 +1,8 @@
 # LinkedList implementation using array
 
-[Source code here:](LinkedListArray.h)
-[Source code here:](test.cpp)
+[Source code](LinkedListArray.h)
+
+[Tests](test.cpp)
 
 Here we discuss about implementation LinkedList using array.
 
